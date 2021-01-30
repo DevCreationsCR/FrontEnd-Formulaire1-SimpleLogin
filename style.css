@@ -1,0 +1,89 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* 1rem = 10px */
+    font-size: 62.5%;
+}
+
+body{
+    background: #DDDCDC;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.boxLogin{
+    width: 35rem;
+    height: 48rem;
+    flex-shrink: 0;
+    background: #FFF;
+    border-radius: 0.5rem;
+}
+
+.containerLogo{
+    height: 43%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cercle{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: rgb(250, 165, 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cercle img{
+    width: 10rem;
+}
+
+.containerInputs{
+    height: 57%;
+}
+
+form input{
+    display: block;
+    margin: 2rem auto;
+    outline: 0;
+    background: #F2F2F2F2;
+    width: 90%;
+    border: 0;
+    padding: 1.5rem;
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+}
+
+form button{
+    display: block;
+    margin: 2rem auto;
+    outline: 0;
+    background:  rgb(250, 165, 9);
+    width: 90%;
+    border: 0;
+    padding: 1.5rem;
+    border-radius: 0.3rem;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.txtFin{
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.txtFin a{
+    text-decoration: none;
+    color:  rgb(165, 109, 4);
+}
